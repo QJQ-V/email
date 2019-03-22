@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmailMessageBody.cs" />
+    <Compile Include="EmailSenderFactory.cs" />
+    <Compile Include="EmailSenderService.cs" />
+    <Compile Include="IEmailSender.cs" />
+    <Compile Include="MQEmailSenderService.cs" />
+    <Compile Include="LocalEmailSenderService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
